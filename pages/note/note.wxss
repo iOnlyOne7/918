@@ -1,0 +1,11 @@
+/* pages/note/note.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx;
+}
+.note{
+    align-items: center;
+    padding: 25rpx 0;
+    border-bottom: 2rpx solid silver;
+}

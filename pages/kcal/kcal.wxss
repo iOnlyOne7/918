@@ -1,0 +1,23 @@
+/* pages/kcal/kcal.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx;
+}
+button{
+    width: 100%;
+    background-color: #09cf38;
+    color: white;
+}
+.bar{
+    align-items: center;
+    padding: 25rpx 0;
+    border-bottom: 2rpx solid silver;
+}
+input{
+    padding: 7px;
+    border-radius: 8px;
+    border: solid 1px;
+    margin-top: 3px;
+    transition: border 0.3s ease;
+}

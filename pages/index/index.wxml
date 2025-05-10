@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="bar" wx:for="{{mealList}}" wx:key="id">
+    <image src="{{item.image}}"></image>
+    <view class="detail">
+      <text class="mealName">{{item.name}}</text>
+      <text>{{item.heal}}</text>
+    </view>  
+    <button class="button">查看做法</button>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/note/note.wxml-->
+<view class="container">
+  <view class="note" wx:for="{{dayList}}" wx:key="id">
+    <view>
+      <text>{{item.date}}</text>
+      <progress percent="{{item.percent}}" show-info="{{item.percent}}" active="{{item.percent}}"></progress>
+    </view>  
+  </view>
+</view>

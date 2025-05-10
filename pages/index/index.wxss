@@ -1,0 +1,33 @@
+/**index.wxss**/
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx;
+}
+.bar{
+    align-items: center;
+    padding: 25rpx 0;
+    border-bottom: 2rpx solid silver;
+}
+image{
+    border: 2px;
+    margin: 0 20rpx;
+    width: 100%;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 10px 5px;
+}
+button{
+    background-color: #09cf38;
+    color: white;
+    /**按钮边框,可以不要**/
+    border:1px solid #000000;
+    border-radius: 2px;
+}
+.mealName{
+    border-width: 700;
+    font-size: 25px;
+}

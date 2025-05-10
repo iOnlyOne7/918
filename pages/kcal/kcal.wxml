@@ -1,0 +1,15 @@
+<!--pages/kcal/kcal.wxml-->
+<view class="container">
+    <view class="bar">
+        <text>食物名称</text>
+        <input type="text" placeholder="例如：苹果" bindinput="onInputFood" value="{{food}}"/>
+    </view>
+    <view class="bar">
+        <text>重量（克）</text>
+        <input type="number" placeholder="100" bindinput="onInputWeight" value="{{weight}}"/>
+    </view>
+    <button class="button" bind:tap="sumKcal">计算热量</button>
+    <view wx:if="{{result}}">
+        <text>预计热量：{{result}}  kcal</text>
+    </view>
+</view>

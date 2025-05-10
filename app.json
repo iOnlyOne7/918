@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/kcal/kcal",
+    "pages/note/note",
+    "pages/wode/wode"
+  ],
+  "tabBar":{
+      "selectedColor": "#09cf38",
+      "list": [{
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "/images/tabbar/index.png",
+          "selectedIconPath": "/images/tabbar/index_green.png"
+      },
+      {
+        "pagePath": "pages/kcal/kcal",
+        "text": "热量",
+        "iconPath": "/images/tabbar/kcal.png",
+        "selectedIconPath": "/images/tabbar/kcal_green.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "记录",
+        "iconPath": "/images/tabbar/note.png",
+        "selectedIconPath": "/images/tabbar/note_green.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "/images/tabbar/wode.png",
+        "selectedIconPath": "/images/tabbar/wode_green.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "健康饮食",
+    "navigationBarBackgroundColor": "#000000"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
